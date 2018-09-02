@@ -11,16 +11,16 @@
 namespace Kdyby\Google;
 
 use Nette\Http\Url;
-use Nette\Object;
-
+use Nette\SmartObject;
 
 
 /**
  * @author Mikulas Dite <rullaf@gmail.com>
  * @author Filip Procházka <filip@prochazka.su>
  */
-class Configuration extends Object
+class Configuration
 {
+    use SmartObject;
 
 	/**
 	 * @var string
